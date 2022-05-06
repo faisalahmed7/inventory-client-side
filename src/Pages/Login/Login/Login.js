@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const emailRef = useRef('')
@@ -36,6 +37,7 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
+                <p>New to Bd Electronics ? <Link to='/registration' className='text-danger text-decoration-none'> Please Register</Link></p>
             </Form>
         </div>
     );
