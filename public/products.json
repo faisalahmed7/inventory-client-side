@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Iphone",
+        "supplierName": "Gadget BD",
+        "_id": "1",
+        "quantity": "250",
+        "price": "125000",
+        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "image": "https://i.ibb.co/3MM5d1W/iphone13.jpg"
+    },
+    {
+        "name": "Laptop",
+        "supplierName": "Computer Mania",
+        "_id": "2",
+        "quantity": "50",
+        "price": "120000",
+        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "image": "https://i.ibb.co/6WD5MtH/laptop-2.jpg"
+    },
+    {
+        "name": "Desktop",
+        "supplierName": "Computer Mania",
+        "_id": "3",
+        "quantity": "70",
+        "price": "90000",
+        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "image": "https://i.ibb.co/2sqSm6n/desktop.jpg"
+    },
+    {
+        "name": "Washing Machine",
+        "supplierName": "Samsung",
+        "_id": "1",
+        "quantity": "30",
+        "price": "60000",
+        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "image": "https://i.ibb.co/GRtHhtL/washing-Machine.jpg"
+    },
+    {
+        "name": "Microwave",
+        "supplierName": "Sharp",
+        "_id": "1",
+        "quantity": "30",
+        "price": "15000",
+        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "image": "https://i.ibb.co/VQ2800b/microwave.jpg"
+    },
+    {
+        "name": "Miyako",
+        "supplierName": "Miyako",
+        "_id": "6",
+        "quantity": "400",
+        "price": "4000",
+        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "image": "https://i.ibb.co/V92jmLm/daniel-norris-ZN-86c-Zr-SN0-unsplash.jpg"
+    }
+]
