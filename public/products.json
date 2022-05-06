@@ -29,7 +29,7 @@
     {
         "name": "Washing Machine",
         "supplierName": "Samsung",
-        "_id": "1",
+        "_id": "4",
         "quantity": "30",
         "price": "60000",
         "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
@@ -38,7 +38,7 @@
     {
         "name": "Microwave",
         "supplierName": "Sharp",
-        "_id": "1",
+        "_id": "5",
         "quantity": "30",
         "price": "15000",
         "description": "Not only is the Universe stranger than we think, it is stranger than we can think",

@@ -1,9 +1,42 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { Button, Form } from 'react-bootstrap';
 
 const Login = () => {
-    return (
-        <div>
+    const emailRef = useRef('')
+    const passwordRef = useRef('')
 
+
+    const handleLogin = e => {
+        e.preventDefault()
+
+        const email = emailRef.current.value;
+        const password = passwordRef.current.value;
+        console.log(email, password)
+
+    }
+
+
+    return (
+        <div className='container w-25 mx-auto'>
+            <h2 className='text-info text-center mt-3'>Please Login</h2>
+            <Form onSubmit={handleLogin}>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
+
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
+                </Form.Group>
+                {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                    <Form.Check type="checkbox" label="Check me out" />
+                </Form.Group> */}
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
         </div>
     );
 };
