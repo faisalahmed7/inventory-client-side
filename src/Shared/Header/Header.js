@@ -1,11 +1,15 @@
+
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
+
 import CustomActive from '../CustomActive/CustomActive';
 
 import './Header.css'
 
 const Header = () => {
+
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" sticky='top' variant="dark">
             <Container>
