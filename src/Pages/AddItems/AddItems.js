@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import './AddItems.css'
 
 const AddItems = () => {
 
@@ -25,7 +26,7 @@ const AddItems = () => {
 
     return (
         <div className='mt-4'>
-            <div className='w-25 mx-auto'>
+            <div className='w-75 mx-auto device'>
                 <h2 className='text-center text-success mb-4'>Please add a product</h2>
                 <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
                     <input className='mb-2' placeholder='Service Name' {...register("name", { required: true, maxLength: 20 })} />

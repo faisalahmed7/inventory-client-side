@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useProducts from '../../../hooks/useProducts';
 import Inventory from '../Inventory/Inventory';
 import './Inventories.css'
@@ -18,6 +19,9 @@ const Inventories = () => {
                         product={product}>
                     </Inventory>)
                 }
+            </div>
+            <div className='text-center mt-4 mb-2'>
+                <Link to='/manageItems' className='text-danger text-decoration-none'>Manage Inventories</Link>
             </div>
         </div>
     );
