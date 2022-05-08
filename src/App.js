@@ -9,6 +9,7 @@ import Registration from './Pages/Login/Registration/Registration';
 import NotFound from './Shared/NotFound/NotFound'
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import InventoryDetail from './Pages/InventoryDetail/InventoryDetail';
+import AddItems from './Pages/AddItems/AddItems'
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/inventory/:id' element={<RequireAuth><InventoryDetail></InventoryDetail></RequireAuth>}></Route>
+        <Route path='/addItem' element={<AddItems></AddItems>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/registration' element={<Registration></Registration>}></Route>

@@ -29,8 +29,17 @@ const Header = () => {
                         <Nav.Link as={CustomActive} to="/blogs"><span>Blogs</span></Nav.Link>
 
                         {
+                            user && <>
+
+                                <Nav.Link as={CustomActive} to="/manageItem"><span>Manage Items</span></Nav.Link>
+                                <Nav.Link as={CustomActive} to="/addItem"><span>Add Item</span></Nav.Link>
+                                <Nav.Link as={CustomActive} to="/myItems"><span>My Items</span></Nav.Link>
+
+                            </>
+                        }
+                        {
                             user ?
-                                <button className='btn btn-link  text-white text-decoration-none' onClick={handleSignOut}><span>Log Out</span></button>
+                                <button className='btn btn-link  text-white text-decoration-none mb-2' onClick={handleSignOut}><span>Log Out</span></button>
                                 : <Nav.Link as={Link} to='/login'>
                                     <span>Login</span>
                                 </Nav.Link>}
