@@ -33,6 +33,7 @@ const AddItems = () => {
                     <input className='mb-2' placeholder='Price' type="number" {...register("price")} />
                     <input className='mb-2' placeholder='Quantity' type="number" {...register("quantity")} />
                     <input className='mb-2' placeholder='Photo Url' type="text" {...register("image")} />
+                    <input className='mb-2' placeholder='Email' type="text" {...register("email")} />
                     <input className='mb-2' type="submit" value="Add Service" />
                 </form>
             </div>

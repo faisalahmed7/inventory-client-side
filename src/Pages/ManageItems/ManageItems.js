@@ -3,11 +3,22 @@ import useProducts from '../../hooks/useProducts';
 import { Table } from "react-bootstrap";
 
 const ManageItems = () => {
-    const [products] = useProducts([]);
+    const [products, setProducts] = useProducts();
+    const handleDelete = id => {
+        const url = `http://localhost:5000/inventory/${id}`
+        fetch(url, {
+            method: "DELETE",
+        })
+            .then(res => res.json())
+            .then(data => {
+                const remaining = products.filter((product) => product._id !== id);
+                setProducts(remaining)
+            })
+    }
     return (
         <div>
-            <div>
-                <h2>MANAGE : {products.length}</h2>
+            <div className='mt-5'>
+                <h2 className='text-center mb-4'>Total Items : {products.length}</h2>
             </div>
             <div>
                 <Table striped bordered hover>
@@ -32,7 +43,7 @@ const ManageItems = () => {
                                 <td>
                                     <h6>{product.quantity}</h6>
                                 </td>
-                                <td><button className='btn btn-danger'>Delete</button></td>
+                                <td><button onClick={() => handleDelete(product._id)} className='btn btn-danger'>Delete</button></td>
 
                             </tr>
                         ))}
