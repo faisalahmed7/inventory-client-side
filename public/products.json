@@ -5,7 +5,7 @@
         "_id": "1",
         "quantity": "250",
         "price": "125000",
-        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "description": "Introduced on September 14, 2021, the iPhone 13 Pro and iPhone 13 Pro Max are Apple's newest high-end pro-level flagship iPhones. The 6.1-inch iPhone 13 Pro is the successor to the iPhone 12 Pro, while the 6.7-inch iPhone 13 Pro Max is the replacement for the iPhone 12 Pro Max",
         "image": "https://i.ibb.co/3MM5d1W/iphone13.jpg"
     },
     {
@@ -14,7 +14,7 @@
         "_id": "2",
         "quantity": "50",
         "price": "120000",
-        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "description": "Available in both 14-inch and 16-inch sizes, the new MacBook Pro laptops can both be picked up with either the new M1 Max or M1 Pro chips (not the previously rumoured M1X) and offer a sizeable performance boost over the previous Intel-powered 16-inch MacBook Pro.",
         "image": "https://i.ibb.co/6WD5MtH/laptop-2.jpg"
     },
     {
@@ -23,7 +23,7 @@
         "_id": "3",
         "quantity": "70",
         "price": "90000",
-        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "description": "iMac M1 and Powerful processors go hand in hand. Up to a 6-core Intel Core i7 Processor gives the 21.5 inch iMac all the power you need for creating in Photoshop, Editing videos, or making music. And the 24-inch model offers up to an 8-core CPU and 8-core GPU M1 processor",
         "image": "https://i.ibb.co/2sqSm6n/desktop.jpg"
     },
     {
@@ -32,7 +32,7 @@
         "_id": "4",
         "quantity": "30",
         "price": "60000",
-        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "description": "Samsung 7 kg Fully Automatic Front Load Washing Machine with In-built Heater White (WW70J42E0KW/TL) price in India. Buy Samsung 7 kg Fully Automatic Front Load Washing Machine with In-built Heater White (WW70J42E0KW/TL) with the lowest price ",
         "image": "https://i.ibb.co/GRtHhtL/washing-Machine.jpg"
     },
     {
@@ -41,16 +41,16 @@
         "_id": "5",
         "quantity": "30",
         "price": "15000",
-        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
+        "description": "SHARP Microwave Oven R-20A0(K)V is available at BD Electronics Ltd. The Authorized Distributor of all the SHARP home appliances in Bangladesh. Get the original SHARP microwave ovens and enjoy the Japanese quality with the promise .",
         "image": "https://i.ibb.co/VQ2800b/microwave.jpg"
     },
     {
-        "name": "Miyako",
-        "supplierName": "Miyako",
+        "name": "Canon",
+        "supplierName": "Gadget BD",
         "_id": "6",
         "quantity": "400",
         "price": "4000",
-        "description": "Not only is the Universe stranger than we think, it is stranger than we can think",
-        "image": "https://i.ibb.co/V92jmLm/daniel-norris-ZN-86c-Zr-SN0-unsplash.jpg"
+        "description": "Lightweight and stylish, the EOS M50 Mark II is fun and easy to use with Wi-Fi connectivity for content creators to stay close to your audience at all times. Keep the lit with high-quality visual storytelling in 4K and accurate eye and face detection auto  focusing.",
+        "image": "https://i.ibb.co/kBjmLPV/andrew-hutchings-W2-Dta-Yiwfw-unsplash.jpg"
     }
 ]
