@@ -31,7 +31,7 @@ const Header = () => {
                         {
                             user && <>
 
-                                <Nav.Link as={CustomActive} to="/manageItem"><span>Manage Items</span></Nav.Link>
+                                <Nav.Link as={CustomActive} to="/manageItems"><span>Manage Items</span></Nav.Link>
                                 <Nav.Link as={CustomActive} to="/addItem"><span>Add Item</span></Nav.Link>
                                 <Nav.Link as={CustomActive} to="/myItems"><span>My Items</span></Nav.Link>
 

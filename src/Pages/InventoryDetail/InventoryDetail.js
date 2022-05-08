@@ -19,7 +19,7 @@ const InventoryDetail = () => {
                     <img className='w-100' src={product.image} alt="" />
                 </div>
                 <div className='product-details'>
-                    <h2><span className='text-danger'><i>{product.name}</i></span></h2>
+                    <h2><span className='name'><i>{product.name}</i></span></h2>
                     <p>Product Id:  <span className='p_id'><i>{product._id}</i></span></p>
                     <p>Price:  {product.price} BDT</p>
                     <p>Quantity:  {product.quantity}</p>

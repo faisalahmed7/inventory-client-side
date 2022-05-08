@@ -30,7 +30,8 @@
     font-family: sans-serif;
 }
 
-.text-danger {
+.name {
+    color: red;
     font-size: 40px;
 }
 

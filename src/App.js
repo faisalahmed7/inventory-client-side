@@ -10,6 +10,8 @@ import NotFound from './Shared/NotFound/NotFound'
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import InventoryDetail from './Pages/InventoryDetail/InventoryDetail';
 import AddItems from './Pages/AddItems/AddItems'
+import ManageItems from './Pages/ManageItems/ManageItems';
+import MyItems from './Pages/MyItems/MyItems';
 
 
 
@@ -23,6 +25,8 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/inventory/:id' element={<RequireAuth><InventoryDetail></InventoryDetail></RequireAuth>}></Route>
         <Route path='/addItem' element={<AddItems></AddItems>}></Route>
+        <Route path='/manageItems' element={<ManageItems></ManageItems>}></Route>
+        <Route path='/myItems' element={<MyItems></MyItems>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/registration' element={<Registration></Registration>}></Route>
