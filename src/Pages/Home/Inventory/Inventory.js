@@ -15,7 +15,7 @@ const Inventory = ({ product }) => {
             <h2>{name}</h2>
             <p>Price:  {price}</p>
             <p>Quantity:  {quantity}</p>
-            <p className='description'>{description}</p>
+            <p className='description'>{description.slice(0, 100)} ...ReadMore</p>
             <button onClick={() => navigateToDetail(_id)} className='update-button'>Update</button>
         </div>
     );
