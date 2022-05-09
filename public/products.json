@@ -5,7 +5,8 @@
         "quantity": "70",
         "price": "90000",
         "description": "iMac M1 and Powerful processors go hand in hand. Up to a 6-core Intel Core i7 Processor gives the 21.5 inch iMac all the power you need for creating in Photoshop, Editing videos, or making music. And the 24-inch model offers up to an 8-core CPU and 8-core GPU M1 processor.",
-        "image": "https://i.ibb.co/2sqSm6n/desktop.jpg"
+        "image": "https://i.ibb.co/2sqSm6n/desktop.jpg",
+        "email": "faisalahmeddiu@gmail.com"
     },
     {
         "name": "Washing Machine",
@@ -13,7 +14,8 @@
         "quantity": "30",
         "price": "60000",
         "description": "Samsung 7 kg Fully Automatic Front Load Washing Machine with In-built Heater White (WW70J42E0KW/TL) price in India. Buy Samsung 7 kg Fully Automatic Front Load Washing Machine with In-built Heater White (WW70J42E0KW/TL) with the lowest price. Max spin time 15,spin speed 680 RPM, frequency 50Hz, voltage 230V,air Turbo ",
-        "image": "https://i.ibb.co/GRtHhtL/washing-Machine.jpg"
+        "image": "https://i.ibb.co/GRtHhtL/washing-Machine.jpg",
+        "email": "faisalahmeddiu@gmail.com"
     },
     {
         "name": "MacBook Pro",
@@ -21,7 +23,8 @@
         "quantity": "50",
         "price": "120000",
         "description": "Available in both 14-inch and 16-inch sizes, the new MacBook Pro laptops can both be picked up with either the new M1 Max or M1 Pro chips (not the previously rumoured M1X) and offer a sizeable performance boost over the previous Intel-powered 16-inch MacBook Pro.",
-        "image": "https://i.ibb.co/fCz51pd/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg"
+        "image": "https://i.ibb.co/fCz51pd/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg",
+        "email": "faisalahmeddiu@gmail.com"
     },
     {
         "name": "Microwave",
@@ -29,7 +32,8 @@
         "quantity": "30",
         "price": "15000",
         "description": "Sharp has proudly sold more than 130 million microwave ovens globally since 1962. You can trust Sharp for a microwave oven that compliments your style.SHARP Microwave Oven R-20A0(K)V is available at BD Electronics Ltd.Inverter technology1050W .Microwave Output power1450 W Convection 1300 W Quartz Grill Heater 40 Litre Oven capacity 24 Auto Cook / Defrost functions Turntable size 36,2 cm Info key / Language key Sensor Cook Ceramic Interior + 1min key 24 automatic programs.",
-        "image": "https://i.ibb.co/VQ2800b/microwave.jpg"
+        "image": "https://i.ibb.co/VQ2800b/microwave.jpg",
+        "email": "faisalahmeddiu@gmail.com"
     },
     {
         "name": "Iphone 13 Pro",
@@ -37,7 +41,8 @@
         "quantity": "250",
         "price": "125000",
         "description": "Introduced on September 14, 2021 iPhone 13 Pro Max are Apple's newest high-end pro-level flagship iPhones. 204 g (7.20 oz),Glass front (Gorilla Glass),IP68 dust/water resistant, Chipset Apple A15 Bionic (5 nm), MAIN CAMERA Quad 12 MP, f/1.5, 26mm (wide), 1.9µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.8, 77mm (telephoto), PDAF, OIS, 3x optical zoom 12 MP, f/1.8, 13mm, 120˚ (ultrawide), PDAF, Video 4K@24/30/60fps, 1080p@30/60/120/240fps,10‑bit HDR. BATTERY (Li-Ion 3095 mAh)",
-        "image": "https://i.ibb.co/3MM5d1W/iphone13.jpg"
+        "image": "https://i.ibb.co/3MM5d1W/iphone13.jpg",
+        "email": "faisalahmeddiu@gmail.com"
     },
     {
         "name": "Canon",
@@ -45,6 +50,7 @@
         "quantity": "67",
         "price": "80000",
         "description": "Lightweight and stylish, the EOS 5D Mark II is fun and easy to use.21.1-megapixel full-frame CMOS sensor, 14-bit A/D conversion, wide range ISO setting 100-6400 Body only, lenses sold separately,1-Year Canon U.S.A.Limited Warranty DIGIC 4 Image Processor, high-performance 3.9 fps continuous shooting, Live View Function for stills Full HD video capture at 1920x1080 resolution for up to 4GB per clip, HDMI output. This  canon DSLR camera provides 03 Years Service Warranty (No parts warranty).",
-        "image": "https://i.ibb.co/kBjmLPV/andrew-hutchings-W2-Dta-Yiwfw-unsplash.jpg"
+        "image": "https://i.ibb.co/kBjmLPV/andrew-hutchings-W2-Dta-Yiwfw-unsplash.jpg",
+        "email": "faisalahmeddiu@gmail.com"
     }
 ]

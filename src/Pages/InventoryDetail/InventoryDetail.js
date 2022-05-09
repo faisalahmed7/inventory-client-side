@@ -18,20 +18,24 @@ const InventoryDetail = () => {
         const quantity = e.target.quantity.value;
 
 
-        const updateUser = { quantity }
+        const updateQuantity = { quantity }
         const url = `http://localhost:5000/inventory/${id}`
         fetch(url, {
             method: 'PUT',
             headers: {
                 'content-Type': 'application/json'
             },
-            body: JSON.stringify(updateUser)
+            body: JSON.stringify(updateQuantity)
         })
             .then(res => res.json())
             .then(data => {
                 console.log("success", data)
                 alert('Restock Item successfully')
                 e.target.reset()
+                setProduct(...product, data)
+
+
+
             })
     }
 
@@ -53,7 +57,7 @@ const InventoryDetail = () => {
                     <button className='deliver-btn'>Deliver</button>
                     <div className='mt-2'>
                         <form onSubmit={handleRestockItem}>
-                            <input type="number" name="quantity" id="" />
+                            <input type="text" name="quantity" id="" />
                             <input className='bg-success text-white rounded-2 border' type="submit" value="Restock Quantity" />
                         </form>
                     </div>

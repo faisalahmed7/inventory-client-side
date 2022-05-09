@@ -1,0 +1,32 @@
+.react-footer {
+    margin-top: 20px;
+
+
+}
+
+.address-footer {
+    display: flex;
+    justify-content: space-between;
+    background: azure;
+    color: black;
+}
+
+.address {
+    margin-left: 100px;
+}
+
+.social-address {
+    margin-right: 100px;
+}
+
+@media only screen and (max-width:576px) {
+
+    .address {
+        margin: 3px;
+    }
+
+    .social-address {
+        margin: 3px;
+    }
+
+}
