@@ -7,7 +7,7 @@ const Blogs = () => {
             <h3 className='text-center mb-5'>Questions and Answers</h3>
             <div className='blogs'>
                 <div className="question-ans">
-                    <h5 className='text-danger'>Difference between JavaScript & NodeJs?</h5>
+                    <h5 className='text-danger text-center mb-2'>Difference between JavaScript & NodeJs?</h5>
                     <p>JavaScript is high programming language and also called the scripting language as well.
                         It can only be run in browsers through some some JS engines like JS core in Safari and Spidermonkey in  Firefox.
                         It is used for frontend development and on the client side.It supports HTML tags and DOM. On the Other hand NodeJS is runtime environment for JavaScript.
@@ -15,7 +15,7 @@ const Blogs = () => {
                         NodeJS doesn't support HTML tags and it is written in C,C++ and JavaScript.</p>
                 </div>
                 <div className="question-ans">
-                    <h5 className='text-danger'>Difference between SQL & NoSQL?</h5>
+                    <h5 className='text-danger text-center mb-2'>Difference between SQL & NoSQL?</h5>
                     <p>SQL database is a relational database management system and it is vertically scalable. S
                         QL database have a fixed or static schema and these database are not suitable for hierarchical data storage.
                         SQL database follows ACID property. On the other hand, NoSQL database isn't a relational database
@@ -24,8 +24,8 @@ const Blogs = () => {
 
                     </p>
                 </div>
-                <div className="question-ans">
-                    <h5 className='text-danger'>When should you use nodejs and when should you use mongodb?</h5>
+                <div className="question-ans ">
+                    <h5 className='text-danger text-center mb-2'>When should you use nodejs and when should you use mongodb?</h5>
                     <p>Node.js  is a open source  server side scripting platform. we should use Node.js because it is very much fast,
                         more efficient and lightweight. And it always uses the asynchronous mode of operation pr execution.
                         And it is the the greatest tool for building a real time web application.
@@ -34,8 +34,8 @@ const Blogs = () => {
                         It's performance is faster than relational database(RDBMS).
                         It can work on multiple servers. And it can easily handle a large number of access request of data.</p>
                 </div>
-                <div className="question-ans">
-                    <h5 className='text-danger'>What is the purpose of jwt and how does it work?</h5>
+                <div className="question-ans ">
+                    <h5 className='text-danger text-center mb-2'>What is the purpose of jwt and how does it work?</h5>
                     <p>JWT stands for Json Web Token. It is mainly used or it is a standard used for sharing the security information between the client and server.
                         The purpose of JWT is not to hide the data but also ensure the authenticity of the valuable data. It is consisted of 3 parts and they are Header,
                         Payload and Signature.First the user will sign in by his/her username and password or other social media or login system.

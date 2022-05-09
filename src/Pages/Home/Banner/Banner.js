@@ -20,7 +20,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
 
-                    <p className='carousel-text'>You don’t have to be great to start. But you have to start to be great.</p>
+                    <p className='carousel-text'>Success is not final; failure is not fatal: it is the courage to continue that counts.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ const Banner = () => {
 
                 <Carousel.Caption>
 
-                    <p className='carousel-text'>Every morning you have two choices: continue to sleep with your dreams, or wake up and chase them.</p>
+                    <p className='carousel-text'>Business opportunities are like buses, there's always another one coming.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,7 +45,7 @@ const Banner = () => {
                 <Carousel.Caption>
 
                     <p className='carousel-text'>
-                        Nobody can go back and start a new beginning, but anyone can start today and make a new ending.
+                        Success usually comes to those who are too busy to be looking for it.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

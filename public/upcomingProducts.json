@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Click Fan",
+        "supplierName": "RFL",
+        "_id": "1",
+        "quantity": "100",
+        "price": "2200",
+        "description": "Click Crown Ceiling Fan 56,Aerodynamic Design ,99.9% Pure Copper Wire, High-quality Silicon Sheet,Powder coating paint ,Whisper quiet motor ,Dimmer control, Rated voltage 220 VRated Power 8 Air Delivery 200M³ / Min Service Value 2.5 M³ / Min, Insulation E Class",
+        "image": "https://i.ibb.co/sFt0Jys/jason-anderson-CN2h4e-Ub-FGw-unsplash.jpg"
+    },
+    {
+        "name": "Sharp Air Conditioner",
+        "supplierName": "Sharp",
+        "_id": "2",
+        "quantity": "20",
+        "price": "85000",
+        "description": "Sharp J Tech Inverter Air Conditioner AH XP18SHV is a perfect choice for you and your family with its cutting-edge features. This 1.5 ton AC with its cooling capacity of 2.0HP and 18000 BTU can be a perfect addition to your home or your office. This powerful AC has a cooling area of *140-170 square feet.",
+        "image": "https://i.ibb.co/20rpJVT/m-wz-E-Bs00-TWA-unsplash.jpg"
+    },
+    {
+        "name": "Xiaomi TV",
+        "supplierName": "Xioami",
+        "_id": "3",
+        "price": "55000",
+        "description": " The Xiaomi Mi P1 L32M6-6ARG Smart Android TV comes with a 32 inches HD (1,366 x 768) display. It has a viewing angle of 178°(H)/178°(V). The Mi P1 features a MediaTek MT9611 processor. It is equipped with Quad CA53, up to 1.2GHz CPU, and Mali 470 MP3 GPU. It has 1.5GB RAM and 8GB of storage.",
+        "image": "https://i.ibb.co/FsRFwLR/marques-kaspbrak-5w-Thjq-G6-HBU-unsplash-1.jpg"
+    }
+]

@@ -23,7 +23,9 @@ const InventoryDetail = () => {
                     <p>Product Id:  <span className='p_id'><i>{product._id}</i></span></p>
                     <p>Price:  {product.price} BDT</p>
                     <p>Quantity:  {product.quantity}</p>
+                    <p>Supplier Name: {product.supplierName}</p>
                     <p className='single-description'>{product.description}</p>
+
                     <button className='deliver-btn'>Deliver</button>
                 </div>
 

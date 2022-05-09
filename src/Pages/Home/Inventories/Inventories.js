@@ -9,7 +9,7 @@ const Inventories = () => {
     const newProducts = [...products]
     const finalProducts = newProducts.slice(0, 6)
     return (
-        <div id="services" className='mt-5' >
+        <div id="services" className='mt-5 mb-5' >
             <h2 className='products-name mb-5'>Inventories</h2>
 
             <div className='products-container'>
@@ -20,7 +20,7 @@ const Inventories = () => {
                     </Inventory>)
                 }
             </div>
-            <div className='text-center mt-4 mb-2'>
+            <div className='text-center mt-5 mb-2'>
                 <Link to='/manageItems' className='text-danger text-decoration-none'>Manage Inventories</Link>
             </div>
         </div>

@@ -38,6 +38,7 @@ const Header = () => {
                             </>
                         }
                         <Nav.Link as={CustomActive} to="/blogs"><span>Blogs</span></Nav.Link>
+                        <Nav.Link as={CustomActive} to="/about"><span>About Us</span></Nav.Link>
                         {
                             user ?
                                 <button className='btn btn-link  text-white text-decoration-none mb-2' onClick={handleSignOut}><span>Log Out</span></button>
