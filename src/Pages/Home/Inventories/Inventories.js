@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import useProducts from '../../../hooks/useProducts';
 import Inventory from '../Inventory/Inventory';
 import './Inventories.css'

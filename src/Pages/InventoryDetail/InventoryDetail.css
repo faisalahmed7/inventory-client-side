@@ -21,11 +21,13 @@
 }
 
 
-.product-image {
+.singleProduct-image {
+    width: 50%;
     margin-right: 40px;
 }
 
-.product-details {
+.singleProduct-details {
+    width: 50%;
     padding: 3px;
     font-family: sans-serif;
 }

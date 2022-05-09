@@ -18,15 +18,19 @@ const MyItems = () => {
         getItems();
     }, [user]);
     const handleDelete = id => {
-        const url = `http://localhost:5000/inventory/${id}`
-        fetch(url, {
-            method: "DELETE",
-        })
-            .then(res => res.json())
-            .then(data => {
-                const remaining = items.filter((item) => item._id !== id);
-                setItems(remaining)
+
+        const confirm = window.confirm('Are You Sure Want To Delete??')
+        if (confirm) {
+            const url = `http://localhost:5000/inventory/${id}`
+            fetch(url, {
+                method: "DELETE",
             })
+                .then(res => res.json())
+                .then(data => {
+                    const remaining = items.filter((item) => item._id !== id);
+                    setItems(remaining)
+                })
+        }
     }
 
     return (
