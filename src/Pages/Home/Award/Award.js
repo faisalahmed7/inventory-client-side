@@ -6,9 +6,9 @@ const Award = ({ award }) => {
         <div className='award-container'>
             <img className='w-100' src={image} alt="" />
             <div className='mt-4'>
-                <h2>{name}</h2>
+                <h5 className='text-danger'>{name}</h5>
 
-                <p className='description'>{description}</p>
+                <p className='description text-center text-success'>{description}</p>
             </div>
 
         </div>

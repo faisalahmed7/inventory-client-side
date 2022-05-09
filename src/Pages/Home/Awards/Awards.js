@@ -5,7 +5,7 @@ import './Awards.css'
 const Awards = () => {
     const [awards, setAwards] = useState([])
     useEffect(() => {
-        fetch('awards.json')
+        fetch('http://localhost:5000/award')
             .then(res => res.json()
                 .then(data => setAwards(data)))
     }, [])

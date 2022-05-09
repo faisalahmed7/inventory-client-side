@@ -1,38 +1,32 @@
 [
     {
-        "name": "Iphone",
-        "_id": "1",
-        "description": "2021",
+        "name": "Best National Award from Government",
+        "description": "Year-2021",
         "image": "https://i.ibb.co/Xt6CGwj/5-Annual-Small-Business-Awards-You-Can-Win-Now-scaled-1.jpg"
     },
     {
-        "name": "Laptop",
-        "_id": "2",
-        "description": "2021",
+        "name": "Best Dealer Award from Gadget Mania",
+        "description": "Year-2020",
         "image": "https://i.ibb.co/3mcsfrt/rsz-1anton-maksimov-5642-su-dq1fho59szu-unsplash.jpg"
     },
     {
-        "name": "Desktop",
-        "_id": "3",
-        "description": "2021",
+        "name": "Best International Award in South Asia",
+        "description": "Year-2021",
         "image": "https://i.ibb.co/k224HPd/rsz-2017-shills-winner-lba.jpg"
     },
     {
-        "name": "Washing Machine",
-        "_id": "4",
-        "description": "2021",
+        "name": "Best Employee Award in North-Dhaka ",
+        "description": "Year-2019",
         "image": "https://i.ibb.co/Z2NbSY8/rsz-a-group-of-employees-celebrate-earninga-business-award.jpg"
     },
     {
-        "name": "Microwave",
-        "_id": "5",
-        "description": "2021",
+        "name": "Best Dealer Award from HSBC Bank in Local ",
+        "description": "Year-2021",
         "image": "https://i.ibb.co/sR6Gxtw/rsz-giorgio-trovato-xty6ld8jgm-unsplash.jpg"
     },
     {
-        "name": "Canon",
-        "_id": "6",
-        "description": "2021",
+        "name": "Best Dealer Award in South Asia From Canon Inc",
+        "description": "Year-2018",
         "image": "https://i.ibb.co/0DCv89R/Viettelwins-big-at-the-International-Business-Awards-2019-1.jpg"
     }
 ]

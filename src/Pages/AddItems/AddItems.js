@@ -6,7 +6,7 @@ const AddItems = () => {
 
 
     const { register, handleSubmit } = useForm();
-    const onSubmit = data => {
+    const onSubmit = (data, e) => {
 
         console.log(data);
         const url = `http://localhost:5000/inventory`
@@ -20,6 +20,7 @@ const AddItems = () => {
             .then(res => res.json())
             .then(result => {
                 console.log(result);
+                e.target.reset();
             })
 
     };
